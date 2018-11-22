@@ -11,6 +11,8 @@
   <body>
     <div class="container">
       <%= yield %>
+      <li><%= link_to "about", "/about" %></li>
+      <li><%= link_to "sign up", new_contact_path %></li>
     </div>
   </body>
 </html>
